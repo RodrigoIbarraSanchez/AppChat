@@ -1,0 +1,46 @@
+<ion-side-menus>
+    <!-- Left menu -->
+    <ion-side-menu side="left">
+        <div id="profile-info">
+            <img id="profile-image" src="{{profileThumbnail}}">
+            <h1 style="color:#D43F4D">{{nombreDeUsuario}}</h1>
+            <span style="color:grey">{{numero}}</span>
+            <h4 style="color:#D43F4D">{{estado}}</h4>
+        </div>
+    </ion-side-menu>
+
+    <ion-side-menu-content>
+
+        <!--
+        <ion-header-bar>
+            <button class="botonAbrirPerfil button button-clear icon ion-navicon" ng-click="toggleLeft()"></button>
+            <h1 class="title" style="color:white">SlangVoom</h1>
+        </ion-header-bar>
+-->
+        <ion-tabs class="tabs-striped tabs-top tabs-icon">
+
+            <!-- ChatList Tab -->
+            <ion-tab icon="ion-chatboxes" badge="2" badge-style="badge-assertive" href="#/main/chatList">
+                <ion-nav-view name="main-chatList"></ion-nav-view>
+            </ion-tab>
+
+            <!-- Groups Tab -->
+            <ion-tab icon="ion-ios-people" ui-sref="groups">
+                <ion-nav-view name="main-groups"></ion-nav-view>
+            </ion-tab>
+
+            <!-- Contacts Tab -->
+            <ion-tab icon="ion-person-stalker" ui-sref="contacts">
+                <ion-nav-view name="main-contacts"></ion-nav-view>
+            </ion-tab>
+
+            <!-- Settings Tab -->
+            <ion-tab icon="ion-ios-settings" ui-sref="settings">
+                <ion-nav-view name="main-settings"></ion-nav-view>
+            </ion-tab>
+
+        </ion-tabs>
+
+    </ion-side-menu-content>
+
+</ion-side-menus>

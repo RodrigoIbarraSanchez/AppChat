@@ -1,0 +1,15 @@
+<ion-view title="chatList">
+    <ion-content class="has-header">
+        <ion-list>
+            <ion-item href="/#/chatArea/{{chat.id}}" class="itemChatList item-remove-animate item-icon-right" ng-repeat="chat in chats">
+                <i class="icon ion-ios-arrow-right"></i>
+                <h2>{{chat.titulo}}</h2>
+                <p>{{chat.descripcion}}</p>
+                <ion-option-button class="button-assertive botonDelete" ng-click="remove(chat.id)"><i style="font-size:38px" class="ion-ios-trash item-icon-center"></i></ion-option-button>
+            </ion-item>
+        </ion-list>
+        <div class="bar bar-footer">
+            <a href="/#/create" class="button pull-right icon ion-plus-circled"></a>
+        </div>
+    </ion-content>
+</ion-view>

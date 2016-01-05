@@ -1,0 +1,12 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Applications/MAMP/htdocs/SlangVoom/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/resolve.js",
+        "/Applications/MAMP/htdocs/SlangVoom/www/js/app.js",
+        "/Applications/MAMP/htdocs/SlangVoom/platforms/android/cordova/lib/exec.js",
+        "/Applications/MAMP/htdocs/SlangVoom/platforms/android/cordova/lib/log.js",
+        "/Applications/MAMP/htdocs/SlangVoom/platforms/android/cordova/lib/retry.js",
+        "/Applications/MAMP/htdocs/SlangVoom/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/state.js",
+        "/Applications/MAMP/htdocs/SlangVoom/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/stateDirectives.js",
+        "/Applications/MAMP/htdocs/SlangVoom/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js"
+    ]
+}
